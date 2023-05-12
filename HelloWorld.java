@@ -1,6 +1,6 @@
 public class HelloWorld {
     public static void main(String[] args) { 
-    
+        //primitives
     byte bytePrimitive = 127;
     short shortPrimitive = 3419;
     char charPrimitive = 'a';
@@ -8,7 +8,7 @@ public class HelloWorld {
     long longPrimitive = 2131234323;
     float floatPrimitive = 123.123f;
     double doublePrimitive = 123.1231231343454564;
-
+        //String is non-primitive because it is a method()
     String string = "This is String";
         
     System.out.println("Hello world!");
@@ -23,7 +23,7 @@ public class HelloWorld {
     System.out.println("string - " + string);
     }
 
-    //primitives
+    
 
    
 
