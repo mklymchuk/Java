@@ -1,11 +1,6 @@
 public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-        //Output is: Hello World!
-    }
-
-    //primitives
-
+    public static void main(String[] args) { 
+    
     byte bytePrimitive = 127;
     short shortPrimitive = 3419;
     char charPrimitive = 'a';
@@ -15,4 +10,22 @@ public class HelloWorld {
     double doublePrimitive = 123.1231231343454564;
 
     String string = "This is String";
+        
+    System.out.println("Hello world!");
+        //Output is: Hello World!
+    System.out.println("bytePrimitive - " + bytePrimitive);
+    System.out.println("shortPrimitive - " + shortPrimitive);
+    System.out.println("charPrimitive - " + charPrimitive);
+    System.out.println("intPrimitive - " + intPrimitive);
+    System.out.println("longPrimitive - " + longPrimitive);
+    System.out.println("floatPrimitive - " + floatPrimitive);
+    System.out.println("doublePrimitive - " + doublePrimitive);
+    System.out.println("string - " + string);
+    }
+
+    //primitives
+
+   
+
+    
 }
