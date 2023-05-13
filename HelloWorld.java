@@ -1,5 +1,3 @@
-import java.net.SocketPermission;
-
 public class HelloWorld {
     public static void main(String[] args) { 
         //primitives
