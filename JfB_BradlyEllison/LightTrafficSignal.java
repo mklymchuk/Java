@@ -1,4 +1,4 @@
-enum LightTrafficSignal {
+public enum LightTrafficSignal {
     RED ("halt"), GREEN("go"), ORANGE("slower");
     private String move;
     public String getMove() {
