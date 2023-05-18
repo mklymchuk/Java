@@ -5,5 +5,6 @@ public class UserInput {
         System.out.println("Enter nickname");
         String userNickname = inputObject.nextLine();
         System.out.println("Nickname is" + userNickname);
+        inputObject.close();
     }
 }

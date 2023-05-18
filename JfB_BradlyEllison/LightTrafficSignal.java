@@ -7,7 +7,7 @@ enum LightTrafficSignal {
     private LightTrafficSignal (String move) {
         this.move = move;
     }
-};
+}
 
 LightTrafficSignal signal = LightTrafficSignal.valueOf("RED");
 signal = LightTrafficSignal.valueOf("GREEN");
